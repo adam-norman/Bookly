@@ -1,0 +1,20 @@
+﻿Domain layer contains
+- Entities
+- Value Objects
+- Aggregates
+- Domain Services
+- Domain Exceptions
+- Domain Repositories
+- Domain Factories
+- Domain Specifications
+- Domain Events
+- Domain Event Handlers
+- Domain Event Dispatchers
+- Domain Event Subscribers
+- Domain Event Publishers
+- Domain Event Schedulers
+- Domain Event Processors
+- Enums
+- Constants
+- Interfaces
+- Policies/Rules
