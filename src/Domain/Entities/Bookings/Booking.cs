@@ -37,7 +37,7 @@ namespace Domain.Entities.Bookings
         public DateTime? RejectedOnUtc { get; private set; }
         public DateTime? CancelledOnUtc { get; private set; }
         public DateTime? CompletedOnUtc { get; private set; }
-        public static Booking Reserve(Guid id, Apartment apartment, Guid userId, DateRange duration,
+        public static Booking Reserve(  Apartment apartment, Guid userId, DateRange duration,
             DateTime utcNow, PricingService pricingService)
         {
             var pricingDetails = pricingService.CalculatePricing(apartment, duration);
